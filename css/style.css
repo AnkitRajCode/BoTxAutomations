@@ -78,13 +78,7 @@
     background-color: white;
     justify-self: center;
 }
-.eduBox{
-    width: 320px;
-    height: 240px;
-    border-radius: 15px;
-    background-color: white;
-    justify-self: center;
-}
+
 .box-header{
     display: grid;
     height: 70px;
@@ -104,14 +98,28 @@
     font-weight: 700;
     margin-top: 20px;
 }
+.eduBox{
+    width: 320px;
+    height: 260px;
+    border-radius: 15px;
+    background-color: white;
+    justify-self: center;
+    display: grid;
+}
 .eduBox-body{
     text-align: center;
+    justify-self: center;
     font-size: 22px;
     color: #fa9647;
     font-weight: 600;
-    margin-top: 30px;
 }
-
+#collapseOne,
+#collapseTwo{
+    padding: 10px 25px !important;
+    font-size: 15px!important;
+    transition: all 0.2s ease;
+    border-bottom: 1px solid#fa9647;
+}
 /* FOOTER */
 footer{
     width: 100%;
