@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+/* NAVBAR */
+.navbar-brand img{
+    width: 120px;
+    height: 80px;
+    margin-left: 70px;
+}
+.nav-item{
+    margin-right: 50px;
+}
+.nav-link{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #a9a8a8!important;
+}
+
+/* HEADER */
+.header{
+    margin-top: 50px;
+}
+.headerImg{
+    width: 100%;
+}
+.headerTitle{
+    color: #fa9647;
+    margin: 20px 0px;
+}
+.headerBtn{
+    background-color: #fa9647;
+    color: white;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+/* STUDENT SECTION */
+.studentSection{
+    background-color:#fa9647;
+    padding: 50px 0px;
+}
+.studentSection h2{
+    text-align: center;
+    font-weight: 700;
+}
+
+/* EDUCATOR SECTION */
+.educatorSection{
+    padding: 50px 0px;
+}
+.educatorSection h2{
+    text-align: center;
+    font-weight: 700;
+    color: #fa9647;
+}
+
+ /* Common elements in STUDENT SECTION & EDUCATOR SECTION */
+.studentSection h6,
+.educatorSection h6{
+    text-align: center;
+    font-size: 14px;
+}
+.col-sm-6{
+    display: grid;
+}
+.box{
+    width: 220px;
+    height: 200px;
+    border-radius: 15px;
+    background-color: white;
+    justify-self: center;
+}
+.eduBox{
+    width: 320px;
+    height: 240px;
+    border-radius: 15px;
+    background-color: white;
+    justify-self: center;
+}
+.box-header{
+    display: grid;
+    height: 70px;
+    border-bottom: 1.5px solid #fa9647;
+    font-size: 22px;
+    font-weight: 500;
+    color: #fa9647;
+}
+.box-header h5{
+    align-self: center;
+    justify-self: center;
+}
+.box-body{
+    text-align: center;
+    font-size: 55px;
+    color: #fa9647;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.eduBox-body{
+    text-align: center;
+    font-size: 22px;
+    color: #fa9647;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+/* FOOTER */
+footer{
+    width: 100%;
+    font-size: 15px;
+    padding: 20px 0px;
+    background-color: #fa9647;
+    color: white;
+    text-align: center;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 600px) {
+    /* NAVBAR */
+    .navbar-brand img{
+        margin-left:0px;
+    }
+
+    /* HEADER */
+    .header{
+        margin-top: 20px;
+    }
+    br{
+        display: none;
+    }
+    .headerImg{
+        margin-top: 30px;
+    }
+    .headerTitle{
+        margin-top: 0px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 400px) {
+    /* HEADER */
+    br{
+        display: block;
+    }
+    .headerTitle{
+
+        text-align: start;
+    }
+}
