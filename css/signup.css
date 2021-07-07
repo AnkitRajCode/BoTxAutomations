@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     user-select: none;
+    overflow-x: hidden!important;
 }
 ::-webkit-scrollbar{
     width: 0px;
@@ -105,7 +106,7 @@ a img{
   color: black;
 }
 .signin-google-button {
-    float: left;
+  float: left;
   cursor: pointer;
   width:100%;
   border-radius: 30px;
@@ -126,4 +127,28 @@ a img{
 .signin-google-button svg{
   height: 25px;
   margin:0 10px -6px 0px;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 600px) {
+  a img{
+    margin-left: 8px;
+  }
+  .signup-text,
+  .signup-body{
+    width: 100%;
+    float: left;
+  }
+  .signup-text .welcomeMesg{
+    margin-top: 2%;
+    font-size: 55px;
+  }
+  .signup-text .tagline{
+    font-size: 30px;
+    margin-top: 0px;
+  }
+  .signup-card {
+    width:80%;
+    margin: 15% 0% 15% 1%;
+  }
 }
