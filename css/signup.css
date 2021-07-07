@@ -1,0 +1,129 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+a img{
+  width: 120px;
+  height: 80px;
+  margin-left: 80px;
+  margin-top: 5px;
+}
+.signup-text{
+    width: 50%;
+    float: left;
+}
+.signup-text .welcomeMesg{
+    font-size: 85px;
+    margin-top: 10%;
+    text-align: center;
+}
+.signup-text .tagline{
+    font-size: 35px;
+    margin-top: 2%;
+    font-size: 300;
+    text-align: center;
+}
+.signup-body{
+  width: 50%;
+  float: right;
+}
+.signup-card {
+  width:50%;
+  margin: 2% 0% 0% 25%;
+  height: 470px;
+  padding: 40px 35px 35px 35px;
+  border-radius: 40px;
+  background: #ecf0f3;
+  box-shadow: 13px 13px 20px #cbced1,
+              -13px -13px 20px #ffffff;
+}
+.title {
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+.fields {
+  width: 100%;
+  padding: 20px 5px 5px 5px;
+}
+.fields input {
+  border: none;
+  outline:none;
+  background: none;
+  font-size: 18px;
+  color: #555;
+  padding:15px 10px 15px 5px;
+}
+.username, .password {
+  margin-bottom: 30px;
+  border-radius: 25px;
+  box-shadow: inset 8px 8px 8px #cbced1,
+              inset -8px -8px 8px #ffffff;
+}
+.fields svg {
+  height: 22px;
+  margin:0 10px -3px 25px;
+}
+.signin-button {
+    float: left;
+  outline: none;
+  border:none;
+  cursor: pointer;
+  width:100%;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+  color:#fff;
+  text-align: center;
+  background: #fa9647;
+  box-shadow: 3px 3px 8px #b1b1b1,
+              -3px -3px 8px #ffffff;
+  transition: 0.5s;
+}
+.signin-button:hover {
+  background:#fa7712;
+}
+.signin-button:active {
+  background:#ff7206;
+}
+.link {
+  padding-top: 20px;
+  text-align: center;
+}
+.link a {
+  text-decoration: none;
+  color:#aaa;
+  font-size: 15px;
+}
+.link a:hover {
+  color: black;
+}
+.signin-google-button {
+    float: left;
+  cursor: pointer;
+  width:100%;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: 'Lato', sans-serif;
+  color:#fff;
+  text-align: center;
+  background-color: #505a5e;
+  box-shadow: 3px 3px 8px #b1b1b1,
+              -3px -3px 8px #ffffff;
+  text-decoration: none;
+  padding-top: 22px;
+  padding:12px 0px 12px 0px;
+}
+.signin-google-button svg{
+  height: 25px;
+  margin:0 10px -6px 0px;
+}
